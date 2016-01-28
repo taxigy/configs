@@ -5,6 +5,11 @@
       "curly": [2, "multi-line"],
       "eqeqeq": 2,
       "indent": [2, 2],
+      "key-spacing": [2, {
+        "beforeColon": false,
+        "afterColon": true,
+        "mode": "strict"
+      }],
       "linebreak-style": [2, "unix"],
       "quotes": [2, "single"],
       "semi": [2, "always"],
