@@ -10,10 +10,14 @@
         "afterColon": true,
         "mode": "strict"
       }],
+      "keyword-spacing": [2, {
+        "before": true,
+        "after": true,
+        "overrides": {}
+      }],
       "linebreak-style": [2, "unix"],
       "quotes": [2, "single"],
       "semi": [2, "always"],
-      "space-after-keywords": [2, "always"],
       "space-before-function-paren": [2, {
         "anonymous": "always",
         "named": "never"
@@ -35,6 +39,11 @@
       "no-trailing-spaces": [2, {
         "skipBlankLines": true
       }],
+      "no-undef": 2,
+      "no-undef-init": 2,
+      "no-undefined": 2,
+      "no-unused-vars": 2,
+      "no-void": 2,
       "no-with": 2
     },
     "env": {
