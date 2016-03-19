@@ -5,8 +5,8 @@
     "curly": [2, "multi-line"],
     "eqeqeq": 2,
     "generator-star-spacing": [1, {
-      "before": true,
-      "after": false
+      "before": false,
+      "after": true
     }],
     "indent": [2, 2],
     "key-spacing": [2, {
@@ -29,8 +29,8 @@
     "strict": 0,
     "vars-on-top": 2,
     "yield-star-spacing": [2, {
-      "before": true,
-      "after": false
+      "before": false,
+      "after": true
     }],
     "no-array-constructor": 2,
     "no-extend-native": 2,
