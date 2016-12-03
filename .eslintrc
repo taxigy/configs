@@ -61,6 +61,10 @@
     "no-unused-vars": 2,
     "no-void": 2,
     "no-with": 2,
+    "babel/object-curly-spacing": 1,
+    "import/no-unresolved": [2, {
+      "commonjs": true
+    }],
     "react/jsx-closing-bracket-location": [1, "after-props"],
     "react/jsx-curly-spacing": [2, "never", {
       "allowMultiline": false
@@ -111,5 +115,5 @@
     "templateStrings": true,
     "jsx": true
   },
-  "plugins": ["react"]
+  "plugins": ["babel", "import", "react"]
 }
