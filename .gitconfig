@@ -1,6 +1,5 @@
 [user]
 	name = Rishat Muhametshin
-	email = rishatmuhametshin@gmail.com
+	email = rishat@rishat.us
 [core]
-	excludesfile = /Users/rishatmuhametshin/.gitignore_global
 	editor = /usr/bin/vim
